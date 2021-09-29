@@ -272,6 +272,7 @@ padding: 20px 0;
     background-color: rgb(247,250,254);
     padding: 50px 0;
 }
+
 .cases h3{
     width: 300px;
     font-size: 25px;
@@ -287,6 +288,9 @@ padding: 20px 0;
 }
 .cases p{
     margin: 20px 0;
+}
+.over-flow{
+    overflow: hidden;
 }
 /* section-6 */
 .testimonial{
@@ -387,9 +391,20 @@ padding: 20px 0;
     border-radius: 5px;
     color: rgb(91,107,122);
 }
-.btn-1{
-   padding: 10px 60px;
+.form-control{
+    padding: 10px 4px;
+    width: 250px;
+    background-color: rgb(1,45,91);
+    border: none;
+    border: 1px solid rgb(91,107,122);
+    margin-bottom: 5px;
+    margin-right: 5px;
+    border-radius: 5px;
 }
+.service-control{
+    width: 400px;
+}
+
 /* footer */
 footer{
     padding: 50px 0;
