@@ -148,7 +148,7 @@ a:hover{
 .hero article{
     width: 550px;
    margin-right: 500px;
-   
+  justify-content: flex-start;
 }
 h1{
     font-weight: 100;
@@ -162,7 +162,7 @@ h1{
     line-height: 68px;
    
 }
-.btn-2{
+.btn{
     margin: 0;
 }
 /* section-2 */
@@ -269,28 +269,49 @@ padding: 20px 0;
 }
 /* section-5 */
 .cases{
+    width: 100%;
     background-color: rgb(247,250,254);
     padding: 50px 0;
+    overflow: hidden;
+   
+   
+
+}   
+.cases-container{
+    width: 100%;
+    display:  -webkit-inline-box;
 }
 
+.cases-container article{
+    width: 60%;
+   padding-left: 260px;
+   padding-top: 80px;
+}
+.img-box{
+    width: 35%;
+    display: -webkit-inline-box;
+}
+.img{
+    width: 50%;
+    margin-left: 11px;
+}
+
+
+
 .cases h3{
-    width: 300px;
+    width: 250px;
     font-size: 25px;
 }
-.cases article{
-    width: 50%;
-    margin-left: 300px;
-    margin-right: 50px;
-}
-.cases figure{
-    width: 50%;
-    margin-right: 10px;
-}
+
+
 .cases p{
     margin: 20px 0;
 }
 .over-flow{
     overflow: hidden;
+}
+.case-btn{
+    margin-left: 0;
 }
 /* section-6 */
 .testimonial{
@@ -566,7 +587,7 @@ b{
     box-shadow: 0 0 10px 0 gray;
     margin-bottom: 30px;
 }
-.blog-info figure{
+.blog-article-pic{
    position: relative;
 }
 .date{
@@ -577,10 +598,9 @@ b{
     font-weight: 900;
     border-radius: 5px;
     color: #ffff;
-     top: 0.5;
+    margin-top: -60px;
      margin-left: 30px;
      position: absolute;
-     
 }
      
 .blog-info{
